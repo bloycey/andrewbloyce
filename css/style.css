@@ -36,9 +36,11 @@ header {
 }
 
 .role,
-.role span {
+.role span,
+.role span a {
   font-size: 18px;
   line-height: 1.4;
+  text-decoration: none;
 }
 
 h1.name {
@@ -90,6 +92,10 @@ h2 {
   margin-bottom: 15px;
 }
 
+.phone {
+  text-decoration: none;
+}
+
 a.dl-resume {
   border: 1px solid #222;
   padding: 15px;
@@ -114,7 +120,8 @@ a.dl-resume:hover {
   }
 
   .role,
-  .role span {
+  .role span,
+  .role span a {
     font-size: 22px;
   }
 
@@ -157,7 +164,8 @@ a.dl-resume:hover {
     padding-top: 60px;
   }
   .role,
-  .role span {
+  .role span,
+  .role span a {
     font-size: 28px;
   }
 
@@ -171,5 +179,9 @@ a.dl-resume:hover {
 
   .job-title {
     font-size: 26px;
+  }
+
+  #education {
+    margin-bottom: 60px;
   }
 }
