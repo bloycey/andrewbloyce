@@ -35,8 +35,10 @@ header {
   margin-bottom: 30px;
 }
 
-.role {
+.role,
+.role span {
   font-size: 18px;
+  line-height: 1.4;
 }
 
 h1.name {
@@ -88,6 +90,20 @@ h2 {
   margin-bottom: 15px;
 }
 
+a.dl-resume {
+  border: 1px solid #222;
+  padding: 15px;
+  margin-bottom: 60px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a.dl-resume:hover {
+  background-color: #f6f6f6;
+  color: #222;
+}
+
 @media only screen and (min-width: 425px) {
   * {
     font-size: 18px;
@@ -97,7 +113,8 @@ h2 {
     font-size: 45px;
   }
 
-  .role {
+  .role,
+  .role span {
     font-size: 22px;
   }
 
@@ -139,7 +156,8 @@ h2 {
     font-size: 75px;
     padding-top: 60px;
   }
-  .role {
+  .role,
+  .role span {
     font-size: 28px;
   }
 
