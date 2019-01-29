@@ -1,0 +1,157 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  color: #222222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+a {
+  color: #222;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 45px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.role {
+  font-size: 18px;
+}
+
+h1.name {
+  font-size: 32px;
+  padding-top: 30px;
+  margin-bottom: 0;
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.code-list {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.code-list img {
+  height: 15px;
+  padding-right: 15px;
+}
+
+.job-title {
+  font-size: 22px;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.job {
+  margin-bottom: 30px;
+}
+
+.job h6 {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+#recent-employment h2,
+#skills h2,
+#projects h2,
+#education h2 {
+  margin-bottom: 30px;
+}
+
+#education .job {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 425px) {
+  * {
+    font-size: 18px;
+  }
+
+  h1.name {
+    font-size: 45px;
+  }
+
+  .role {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .job {
+    margin-bottom: 45px;
+  }
+
+  .job-title {
+    font-size: 24px;
+  }
+
+  .job h6,
+  .job h6 a {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  #recent-employment h2,
+  #skills h2,
+  #projects h2,
+  #education h2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  * {
+    font-size: 20px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+  h1.name {
+    font-size: 75px;
+    padding-top: 60px;
+  }
+  .role {
+    font-size: 28px;
+  }
+
+  header {
+    margin-bottom: 60px;
+  }
+
+  section {
+    margin-bottom: 75px;
+  }
+
+  .job-title {
+    font-size: 26px;
+  }
+}
